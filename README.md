@@ -43,17 +43,4 @@ set "EXPECTED_USERNAME=OBAC"
 
 ---
 
-## 🧪 Przykład działania
-
-Uruchomienie skryptu `Kopia_z_C_dokumenty_MM_na_HDD.bat`:
-
-:: === Lustrzane odbicie (mirror) ===
-echo === [1/2] Mirror: %SOURCE1% -> %DEST1%
-:: ------------------------------------------------------------------------------------------------------------------
-robocopy "%SOURCE1%" "%DEST1%" /MIR /DCOPY:T /COPY:DAT /MT:4 /R:2 /W:3 /NP /LOG:"%~dp0%LOGDATE%-Kopia_2TB_z_C_dokumenty_MM_na_HDD.log" /TEE
-:: ------------------------------------------------------------------------------------------------------------------
-echo === [1/2] Zakończono
-echo.
-
-
 
